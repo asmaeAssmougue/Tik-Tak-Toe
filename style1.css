@@ -1,0 +1,80 @@
+:root{
+          --grey-color:#555;
+}
+body{
+          margin-top:20px;
+          min-height:200vh;
+          padding: 30px;
+          width:90%;
+          text-align:center;
+          margin:auto;
+  }
+
+  /* Main Contianer */
+	#main {
+		text-align: center;
+                    
+                    background-size: cover;
+                    background-size: cover;
+                    position: relative;
+                    perspective: 100rem;
+                    width: 80%;
+                    height: calc(100vh - 7rem);
+                   
+                    box-shadow:0 1.6em 3em var(--grey-color);
+                    overflow:hidden;
+                   
+                    margin:auto;
+                   
+	}
+       
+
+
+	/* Game Instruction Text */
+	#ins {
+		font-family: Verdana,
+		Geneva, Tahoma, sans-serif;
+	          margin-top:30px;
+		color: dodgerblue;
+		font-size: 17px;
+	}
+  h1{
+      color:rgb(19, 10, 71);
+  }
+  .player{
+          color:rgb(19, 10, 71);    
+  }
+a{
+          text-decoration:none;
+          color:#000;
+
+}
+a:visited{
+          text-decoration:none;
+          color:#000;
+}
+a:hover{
+          text-decoration:none;
+          color:#000;
+}
+button {
+     padding: 10px 20px;
+     border-radius: 10px;
+     background-color: rgb(18, 231, 231);
+     color: white;
+     border-color: rgb(18, 231, 231);
+     font-size: 18px;
+     transition: 200ms transform;
+   }
+   
+   button:hover {
+     cursor: pointer;
+     transform: translateY(-2px);
+   }
+     button a{
+          position:relative;
+          z-index: 2;
+          color:#fff;
+          text-decoration: none;
+     }
+    

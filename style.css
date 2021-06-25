@@ -1,0 +1,167 @@
+
+	:root {
+		--purple: #3e0249;
+		--primary-color: #302AE6;
+		--secondary-color: #3e0249;
+		--font-color: #424242;
+		--bg-color: #fff;
+		--heading-color: #292922;
+	      }
+          /*dark mode*/
+	[data-theme="dark"] {
+		--primary-color: #9A97F3;
+		--secondary-color: #ccd3e6;
+		--font-color: #e1e1ff;
+		--bg-color: #161625;
+		--heading-color: #818cab;
+				}
+		input[type=text]{color:red;}
+
+
+	      body {
+		background-color: var(--bg-color);
+		color: var(--font-color);
+	          font-size: 1.2em;
+		
+	
+	      }
+	      
+	      h1 {
+		color: var(--secondary-color);	
+	      }
+	      
+	      a {
+		color: var(--primary-color);
+	      
+	      }
+	      /*Simple css to style it like a toggle switch*/
+.theme-switch-wrapper {
+	display: flex;
+	align-items: center;
+}
+	em {
+	  margin-left: 10px;
+	  font-size: 1rem;
+	}
+        
+        .theme-switch {
+	display: inline-block;
+	height: 34px;
+	position: relative;
+	width: 60px;
+        }
+        
+        .theme-switch input {
+	display:none;
+        }
+        
+        .slider {
+	background-color: #ccc;
+	bottom: 0;
+	cursor: pointer;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0px;
+	transition: .4s;
+        }
+        
+        .slider:before {
+	background-color: #fff;
+	bottom: 4px;
+	content: "";
+	height: 26px;
+	left: 4px;
+	position: absolute;
+	transition: .4s;
+	width: 26px;
+        }
+        
+        input:checked + .slider {
+	background-color: #66bb6a;
+        }
+        
+        input:checked + .slider:before {
+	transform: translateX(26px);
+        }
+        
+        .slider.round {
+	border-radius: 34px;
+        }
+        
+        .slider.round:before {
+	border-radius: 50%;
+        }
+	/* CSS Code */
+	/* Heading */
+	h1 {
+		color: var(--secondary-color);
+		font-size: 45px;
+	}
+
+	/* 3*3 Grid */
+	#b1, #b2, #b3, #b4, #b5,
+	#b6, #b7, #b8, #b9 {
+		width: 80px;
+		height: 52px;
+		margin: auto;
+		border: 1px solid gray;
+		border-radius: 6px;
+		font-size: 30px;
+		text-align: center;
+	}
+
+	/* Reset Button */
+	#but {
+		box-sizing: border-box;
+		width: 95px;
+		height: 40px;
+		border: 1px solid var(--purple);
+		margin: auto;
+		border-radius: 4px;
+		font-family: Verdana,
+			Geneva, Tahoma, sans-serif;
+
+		background-color: var(--purple);
+		color: white;
+		font-size: 20px;
+		cursor: pointer;
+	}
+	button{
+		width:100px;
+		transition:200ms transform;
+	}
+          button:hover {
+		cursor: pointer;
+		transform: translateY(-2px);
+	        }
+	/* Player turn space */
+	#print {
+		font-family: Verdana,
+			Geneva, Tahoma, sans-serif;
+
+		font-weight:bold;
+		font-size: 20px;
+	}
+
+	#main {
+		text-align: center;
+                    color: var(--font-color);
+                    background-size: cover;
+                    background-size: cover;
+                    position: relative;
+                    perspective: 100rem;
+                    width: 100%;
+                    height: calc(100vh - 7rem);
+		font-size:1.3em;
+	}
+
+	/* Game Instruction Text */
+	#ins {
+		font-family: Verdana,
+		Geneva, Tahoma, sans-serif;
+	          margin-top:30px;
+		color: dodgerblue;
+		font-size: 17px;
+	}
+
